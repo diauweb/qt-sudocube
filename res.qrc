@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/style">
+        <file>board.qss</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>pattern</file>
+        <file>pattern_test</file>
+    </qresource>
+</RCC>

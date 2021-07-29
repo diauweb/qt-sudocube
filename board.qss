@@ -1,0 +1,25 @@
+CubeWidget {
+    border: 1px solid #B5BBCF;
+    border-style: inset;
+}
+
+CubeWidget[state="0"] {
+    background: #F0F3F9;
+}
+
+CubeWidget[state="0"][CheckerStyle="1"] {
+    background: #E2E7F3;
+}
+
+CubeWidget[state="1"] {
+    background: #4C6085;
+}
+
+CubeWidget[preview="true"], CubeWidget[state="0"][preview="true"] {
+    background: #13C4A3;
+}
+
+/* fallback invaild type */
+CubeWidget {
+    background: red;
+}
